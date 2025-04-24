@@ -1,0 +1,47 @@
+.topnav{
+  overflow: hidden;
+  background-color:black;
+}
+.topnav a {
+  float: left;
+  /* display: ; */
+  color:yellowgreen;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration:navajowhite;
+}
+  
+.topnav a.hover {
+  background-color: #ddd;
+  color: black;
+}
+.hero-image {
+  width: 100%;
+  height: auto;
+}
+
+.hero{
+  margin-top: 20px; /* Adjust this value to control the spacing */
+  text-align: center;
+  padding: 500px 200px; /* Add padding for better spacing */
+  background-color:white;
+  background-image: url('./images/Alaya-High.jpeg');
+  background-size: cover;
+  background-position: center;
+  
+ 
+}
+.hero-text h1 {
+  font-size: 2.5rem; /* Adjust font size as needed */
+  margin-bottom: 10px;
+}
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.hero-text button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
