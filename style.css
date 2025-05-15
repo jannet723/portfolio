@@ -91,3 +91,28 @@ h2{
   text-align: center; /* Center the heading */
   margin-top: 20px; /* Add margin to the top */
 }
+
+.gallery {
+  
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
+  gap: 20px; /* Space between images */
+  padding: 20px; /* Padding around the gallery */
+}
+.gallery img {
+  /*width: 200px; /* Set a fixed width for images */
+  height: auto; /* Maintain aspect ratio */
+  padding: 20px; /* Padding around each image */
+  border-radius: 10px; /* Optional: Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add shadow effect */
+}
+
+a {
+  color:rgb(193, 127, 255);
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  /* background-color: #f2f2f2; */
+  transition: background-color 0.3s ease;
+}
